@@ -1,0 +1,29 @@
+.guide {
+    padding: 50px 0;
+    &__block-card {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        padding: 14px 13px;
+        background: rgba(185, 144, 206, 0.35);
+        border-radius: 15px;
+        transition: 0.3s ease;
+        &:hover {
+            box-shadow: 10px 5px 5px rgba(169, 131, 189, 0.35);
+        }
+    }
+
+    &__img {
+        border-radius: 20px;
+    }
+
+    &__title {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,82 @@
+.ua {
+    padding-bottom: 20px;
+    &__block-checkk {
+        padding-top: 50px;
+    }
+
+    &__items {
+        border-radius: 20px;
+        padding: 90px 40px 60px 40px;
+        background: url(/assets/images/1624381934_29-phonoteka_org-p-chernaya-dira-oboi-krasivo-31.jpg) no-repeat top;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__title {
+        margin-bottom: 5px;
+        color: #FFF;
+        font-family: Exo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__text-block {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+
+    &__word {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__sub-word {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right {
+        
+    }
+
+    &__list {
+        padding: 7px 20px;
+        margin-top: 90px;
+        border-radius: 15px;
+        background: rgba(185, 144, 206, 0.35);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__img {
+        transition: 0.3s ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+}

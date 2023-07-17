@@ -1,0 +1,100 @@
+.collect {
+    padding: 100px 0 50px;
+    &__header {
+        padding-bottom: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+
+    &__butn {
+        padding: 7px 19px;
+        background: rgba(160, 86, 255, 0.2);
+        border-radius: 10px;
+        border: 1px solid rgba(190, 159, 224, 1);
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        transition: 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            background: rgba(160, 86, 255, 0.5);
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    &__block-card {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    &__card {
+        max-width: 415px;
+        padding: 14px 13px;
+        background: rgba(185, 144, 206, 0.35);
+        border-radius: 15px;
+        transition: 0.5s ease;
+        &:hover {
+            box-shadow: 0px 10px 20px 5px rgba(32, 30, 30, 0.5);
+        }
+    }
+
+    &__card-img {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__img {
+        transition: 0.5s ease;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 10px 20px 2px rgba(122, 77, 77, 0.25);
+            cursor: pointer;
+        }
+    }
+
+    &__profile {
+        display: flex;
+        padding: 10px 10px 12px 0;
+    }
+
+    &__block-text {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: 10px;
+    }
+
+    &__sub-title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__text-white {
+        display: flex;
+        margin-top: 14px;
+        align-items: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+}

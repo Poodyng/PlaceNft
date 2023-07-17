@@ -1,0 +1,140 @@
+@import './reset';
+@import './mixins';
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #4b1288 url(/assets/images/icons/img_main.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.btn--big {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding: 9px 15px;
+    border: 1px solid rgba(190, 159, 224, 1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+        background-color: #5f4677;
+    }
+}
+
+.btn--min-left {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding: 9px 22px;
+    border: 1px solid rgba(190, 159, 224, 1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0px 0px 10px;
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+        background-color: #5f4677;
+    }
+}
+
+.btn--min-right {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding: 9px 17px;
+    border: 1px solid rgba(190, 159, 224, 1);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+        background-color: #5f4677;
+    }
+}
+
+.btn--heroo {
+    padding: 14px 139px;
+    border-radius: 10px;
+    background: rgba(160, 86, 255, 0.2);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Exo;
+    font-weight: 600;
+    border: 1px solid  rgba(135, 59, 213, 1);
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(237, 233, 243, 0.2);
+    }
+}
+
+.right-btn1 {
+    padding: 10px 18px 8px 18px;
+    border-radius: 10px 0px 0px 10px;
+    background: #A056FF;
+    border: 1px solid rgba(190, 159, 224, 1);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.right-btn2 {
+    padding: 10px 18px 8px 18px;
+    border-radius: 0px 10px 10px 0px;
+    background: rgba(160, 86, 255, 0.20);
+    border: 1px solid rgba(190, 159, 224, 1);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.list--btn {
+    padding: 4px 18px 4px 16px;
+    border-radius: 10px;
+    border: 2px solid #be9fe0;
+    background: #A056FF;
+    color: #FFF;
+    font-family: Exo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        border: 2px solid #A056FF;
+        background: #be9fe0;
+    }
+}
+
+.btn--right {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: rgba(160, 86, 255, 0.20);
+    border: 2px solid rgba(135, 59, 213, 1);
+    color: #FFF;
+    font-family: Exo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    transition: 0.5s ease;
+    &:hover {
+        cursor: pointer;
+        background: rgba(82, 30, 150, 0.2);
+        border: 2px solid rgb(125, 9, 241);
+        color: #e4d4ff;
+    }
+}
+
+

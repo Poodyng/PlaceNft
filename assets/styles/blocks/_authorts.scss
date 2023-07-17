@@ -1,0 +1,81 @@
+.authorts {
+    position: relative;
+    padding: 50px 0;
+    &__title {
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+
+    &__min-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__items {
+ 
+    }
+
+    &__block-cards {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, 3fr);
+        gap: 20px 30px;
+    }
+
+    &__card {
+        display: grid;
+        grid-template-columns: 56px 45px 86px 76px 86px;
+        gap: 5px;
+        padding: 9px 20px;
+        background: rgba(185, 144, 206, 0.35);
+        border-radius: 15px;
+        transition: 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0px 10px 20px 5px rgba(32, 30, 30, 0.5);
+        }
+    }
+
+    &__butn {
+        padding: 8px 15px;
+        background: #4B1288;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+        transition: 0.5s ease;
+        &:hover {
+            color: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    &__sub-title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(197, 197, 197, 0.9);
+    }
+
+    &__sub-text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,237 @@
+.walker {
+    padding-bottom: 20px;
+    &__block-checkk {
+        padding-top: 50px;
+    }
+
+    &__items {
+        border-radius: 20px;
+        padding: 90px 40px 60px 40px;
+        background: url(/assets/images/1624381934_29-phonoteka_org-p-chernaya-dira-oboi-krasivo-31.jpg) no-repeat top;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__title {
+        margin-bottom: 5px;
+        color: #FFF;
+        font-family: Exo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__text-block {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: 0.5s ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+
+    &__word {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__sub-word {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right {
+        
+    }
+
+    &__list {
+        padding: 7px 20px;
+        margin-top: 90px;
+        border-radius: 15px;
+        background: rgba(185, 144, 206, 0.35);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__img {
+        transition: 0.3s ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+
+    &__profill {
+        padding: 35px 145px 3px 0;
+        display: flex;
+        gap: 7px;
+    }
+
+    &__block {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    &__faq {
+        padding: 10px 0 18px 10px;
+        margin-bottom: 50px;
+        border: 1px solid #BE9FE0;
+        border-radius: 15px;
+        background: rgba(169, 129, 228, 0.35);
+    }
+
+    &__faq-head {
+        padding-left: 20px;
+        border-bottom: 1px solid #BE9FE0;
+        margin-left: -10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__faq-text {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__faq-block-text {
+        padding: 10px 0 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #BE9FE0;
+        width: 500px;
+    }
+
+    &__faq-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__chart {
+        margin-top: 22px;
+    }
+
+    &__chart-header {
+        padding: 11px 10px;
+        border-radius: 15px 15px 0 0;
+        background: rgba(169, 129, 228, 0.35);
+        outline: 1px solid #BE9FE0;
+    }
+
+    &__chart-block-text {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__chart-sub-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__chart-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__box-chart {
+        position: relative;
+        padding: 15px 13px 15px 11px;
+        background: rgba(169, 129, 228, 0.35);
+        border-radius: 0 0  15px 15px;
+        outline: 1px solid #BE9FE0;
+        &::after {
+            content: '';
+            width: 581px;
+            height: 212px;
+            background: url(/assets/images/area.png);
+            position: absolute;
+            top: 88px;
+            right: 13px;
+        }
+    }
+
+    &__items-chart {
+        display: flex;
+    }
+
+    &__setka {
+        display: grid;
+        grid-template-columns: repeat(8, 72.5px);
+        grid-template-rows: repeat(5, 57px);
+        
+    }
+
+    &__cube {
+        background: rgba(169, 129, 228, 0.35);
+        border: 1px solid #F0F0F0;
+    }
+
+    &__block-number {
+        margin-right: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    &__number {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__block-months {
+        margin: 8px 0 0 10px;
+        display: flex;
+        gap: 44px;
+    }
+
+    &__months {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__block-card {
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__slider {
+        padding: 70px 0;
+    }
+}

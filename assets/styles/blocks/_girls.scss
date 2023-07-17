@@ -1,0 +1,373 @@
+.girls {
+    padding-bottom: 100px;
+    &__blocks {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__igms {
+        margin-bottom: 11px;
+    }
+
+    &__left {
+
+    }
+
+    &__static-list {
+        margin-top: 11px;
+        padding: 10px 0 0 10px;
+        border: 1px solid #ba88f8;
+        border-radius: 15px;
+        background: rgba(169, 129, 228, 0.35);
+    }
+
+    &__line {
+        margin: 0 -10px;
+    }
+
+    &__block-list {
+
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__head {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__baner-list {
+        padding: 10px;
+        outline: 1px solid #ba88f8;
+        margin-left: -10px;
+        display: grid;
+        grid-template-columns: 111px 128px 91px 105px 37px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__list-white {
+        padding: 7px 2px 6px 10px;
+        display: grid;
+        grid-template-columns: 111px 128px 88px 109px 105px 66px;
+        align-items: center;
+        background: rgba(190, 159, 224, 0.30);
+    }
+
+    &__sub-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__list {
+        padding: 7px 2px 6px 10px;
+        display: grid;
+        grid-template-columns: 111px 128px 88px 109px 105px 66px;
+        align-items: center;
+        background: rgba(96, 10, 189, 0.30);
+    }
+
+    &__letter {
+        margin: 25px 0;
+        padding: 10px 10px 20px 10px;
+        border-radius: 15px;
+        background: rgba(169, 129, 228, 0.35);
+        outline: 1px solid #ba88f8;
+    }
+
+    &__header-lett {
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ba88f8;
+        padding: 13px 10px;
+        margin: -10px;
+    }
+
+    &__block-textt {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__lett-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__block-img {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__profill {
+        padding: 35px 0;
+        display: flex;
+        gap: 7px;
+    }
+
+    &__items-text {
+        margin-top: 10px;
+    }
+
+    &__lett-sub-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    &__block-text {
+        padding-top: 37px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__lett-text {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    &__purple {
+        color: #B78DF6;
+        font-family: Exo;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right {
+
+    }
+
+    &__items-right {
+
+    }
+
+    &__right-text-block {
+
+    }
+
+    &__right-title {
+        margin-bottom: 10px;
+        color: #FFF;
+        font-family: Exo;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-box-text {
+        margin-bottom: 7px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__right-sub-box-text {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__right-text-dark {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-sub-title {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-big-box-text {
+
+    }
+
+    &__right-word {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-sub-word {
+        margin-top: 5px;
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-card {
+        width: 550px;
+        margin: 87px 0 25px;
+        padding: 10px 60px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 15px;
+        background: rgba(169, 129, 228, 0.35);
+        outline: 1px solid #be9fe0;
+    }
+
+    &__right-wd {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__right-ttext-box {
+        margin: 10px 0;
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+    }
+
+    &__right-sub-wd {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__right-number {
+        color: #FFF;
+        font-family: Exo;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    &__right-btn {
+
+    }
+
+    &__right-text {
+        margin-bottom: 5px;
+        color: #FFF;
+        font-family: Exo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    &__right-card-box-text {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__baner-list-mini {
+        padding: 10px;
+        outline: 1px solid #ba88f8;
+        margin-left: -10px;
+        display: grid;
+        grid-template-columns: 111px 78px 68px 101px 37px;
+    }
+
+    &__list-white-mini {
+        padding: 7px 2px 6px 10px;
+        display: grid;
+        grid-template-columns: 111px 82px 64px 101px 92px 66px;
+        align-items: center;
+        background: rgba(190, 159, 224, 0.3);
+    }
+
+    &__list-mini {
+        padding: 7px 2px 6px 10px;
+        display: grid;
+        grid-template-columns: 111px 82px 64px 101px 92px 66px;
+        align-items: center;
+        background: rgba(96, 10, 189, 0.3);
+    }
+
+    &__slider {
+        position: relative;
+        
+        .swiper {
+            height: 300px;
+            
+            &-button-prev, &-button-next {
+                padding: 16px 19px;
+                width: 47px;
+                height: 47px;
+                border-radius: 30px;
+                background: #9E75D5;
+                &::after {
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+        .swiper-button-prev  {
+            left: -15px;
+        }
+        .swiper-button-next  {
+            right: -15px;
+        }
+    }
+    
+    .swiper2 {
+        overflow: hidden;
+    }
+    
+    .swiper3 {
+        overflow: hidden;
+    }
+    .swiper4 {
+        overflow: hidden;
+    }
+}
+
+

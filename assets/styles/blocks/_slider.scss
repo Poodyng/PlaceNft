@@ -1,0 +1,31 @@
+.slider {
+    position: relative;
+    
+    .swiper {
+        &-button-prev, &-button-next {
+            padding: 16px 19px;
+            width: 47px;
+            height: 47px;
+            border-radius: 30px;
+            background: #9E75D5;
+            &::after {
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+    .swiper-button-prev  {
+        left: -15px;
+    }
+    .swiper-button-next  {
+        right: -15px;
+    }
+}
+
+.swiper2 {
+    overflow: hidden;
+}
+
+.swiper3 {
+    overflow: hidden;
+}
